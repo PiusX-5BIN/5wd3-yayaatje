@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 60px;
+    width: 800px;
+    background-color:black
+}
+
+.nav-ul {
+    list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px
+}
+
+.bannerfoto {
+    width: 800px;
+	height: 400px;
+    object-fit: cover;
+}
+
+#bannertexthome {
+    position: absolute;
+    top: 250px;
+	transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 10px;
+    
+}
+
+.overzichtsections {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.overzichtfotos {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.overzichttext {
+    
+}
+
+
+#overzichtfoto1 {
+    margin-top: 70px;
+}
+
+.footers {
+    padding-left: 50px;
+    margin-bottom:20px;
+    
+}
+
+#bannertexthtml {
+    position: absolute;
+    top: 240px;
+	transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 390px;
+    margin-right: 10px;
+    color:azure
+}
+
+.inleidingblog {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px
+}
+
+#fotohtmltags {
+    width: 400px;
+}

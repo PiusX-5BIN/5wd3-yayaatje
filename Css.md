@@ -6,7 +6,7 @@ CSS beschrijft hoe HTML elementen moeten worden weergegeven op het scherm. Met H
 
 ## CSS selectors
 
-CSS selectors kunnen HTML elementen vinden. Dit zijn de belangrijkste selectors...
+CSS selectors kunnen HTML elementen vinden. Dit zijn de belangrijkste selectors:
 
 ### HTML elementen stijlen 
 
