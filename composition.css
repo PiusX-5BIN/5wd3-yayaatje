@@ -62,20 +62,37 @@
 
 #bannertexthtml {
     position: absolute;
-    top: 240px;
+    top: 40%;
+    justify-content: center;
 	transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 390px;
-    margin-right: 10px;
+    margin-left: 400px;
     color:azure
 }
 
 .inleidingblog {
+    margin-left:220px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 100px
+
 }
 
-#fotohtmltags {
-    width: 400px;
+.sectionhtml {
+    margin-left: 130px;
+    margin-bottom: 80px;
 }
+
+.tussentitleblog {
+    margin-bottom: 40px;
+}
+#fotohtmltags {
+    width: 450px;
+    height:300px;
+    margin-bottom: 50px;
+   
+}
+
+#fotoatributes {
+    margin-top: 50px;
+}
+
