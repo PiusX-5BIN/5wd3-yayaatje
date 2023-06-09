@@ -1,0 +1,42 @@
+body {
+    background-color:lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titlebanneruc {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    color:black
+
+}
+
+
+.titlebannerbloguc {
+    font-size: 60px;
+    color: azure;
+}
+.madebyuc {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+nav a {
+    color:azure;
+    
+}
+
+.ucoverzichtpics {
+    border-radius: 30px;
+}
+
+.footers {
+    background-color: black;
+}
+
+.contacttitle {
+    color:azure
+}
+
+.footercontent {
+    color:azure
+}

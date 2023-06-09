@@ -6,9 +6,13 @@
 
 .navbar {
     height: 60px;
-    width: 800px;
+    width: 100%;
     background-color:black
 }
+
+/* @media screen and (min-width: 500px) {
+    width: 500px;
+} */
 
 .nav-ul {
     list-style: none;
@@ -19,34 +23,79 @@
 }
 
 .bannerfoto {
-    width: 800px;
+    width: 100%;
 	height: 400px;
     object-fit: cover;
 }
 
+
+
 #bannertexthome {
     position: absolute;
     top: 250px;
+    left: 50%;
 	transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 400px;
-    margin-right: 10px;
-    
+}
+
+
+@media screen and (min-width: 1000px) {
+    .bannerfoto {
+        height: 600px;
+    }
+
+    #bannertexthome {
+        top: 350px;
+    }
 }
 
 .overzichtsections {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-bottom: 50px;
+    /*display: flex;*/
+
 }
+
+
 
 .overzichtfotos {
-    width: 400px;
-    height: 400px;
+    width: 175px;
+    height: 175px;
     margin-bottom: 30px;
+    margin-left: 120px;
 }
 
+@media screen and (min-width: 480px) {
+    .overzichtfotos {
+        width: 300px;
+        height: 300px;
+        margin-left: 140px;
+
+    }
+}
+
+@media screen and (min-width: 790px) {
+    .overzichtsections {
+        display: flex;
+        padding-left: 50px;
+        
+    }
+
+    .overzichtfotos {
+        margin-left: 30px;
+    }
+}
+
+
 .overzichttext {
-    
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.overzichttitle {
+    margin-bottom: 15px;
 }
 
 
@@ -66,51 +115,156 @@
     justify-content: center;
 	transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 415px;
-    color:azure
+    color:azure;
+    left: 50%;
 }
 
+@media screen and (min-width: 1000px) {
+    #bannertexthtml {
+        top: 45%
+    }
+}
 .inleidingblog {
-    margin-left:220px;
-    margin-top: 100px;
-    margin-bottom: 120px;
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 600px;
+    
 
+}
+
+@media screen and (min-width: 450px) {
+    .inleidingblog {
+        top: 560px;
+        
+        
+    }
+
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .inleidingblog {
+        top: 750px;
+    }
 }
 
 .sectionhtml {
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 80px;
+    margin-top: 250px;
+}
+
+@media screen and (min-width: 450px) {
+    #sectionhtml1 {
+        margin-top: 175px;
+    }
 }
 
 .tussentitleblog {
     margin-bottom: 30px;
-    margin-top: 20px;
-}
-#fotohtmltags {
-    width: 450px;
-    height:300px;
-    margin-bottom: 50px;
-    margin-left: 150px;
-   
+    margin-top: 70px;
 }
 
+#fotohtmltags {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+
+    @media screen (min-width: 450px) {
+        #fotohtmltags {
+            margin-left: 100px;
+        }
+    }
+    @media screen (min-width: 550px) {
+        #fotohtmltags {
+            width: 450px;
+            height: 300px;
+            margin-left: 100px;
+        }
+    }
+
+   /* @media screen and (min-width: 600px;) {
+        #fotohtmltags {
+            width: 350px; 
+            height: 200px;
+        }
+    }*/
+
+    @media screen and (min-width: 700px) {
+        #fotohtmltags {
+            margin-left: 250px;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+         #fotohtmltags {
+            width: 550px;
+            height: 300px
+         }
+    }
+
+
+    @media screen and (min-width: 1000px) {
+        #fotohtmltags {
+            width:  750px;
+            height: 500px;
+            
+        }
+    }
 #fotoatributes {
     margin-top: 50px;
 }
 
 #bannertextcss {
     position: absolute;
-    top: 40%;
+    top: 45%;
+    left: 50%;
     justify-content: center;
 	transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 415px;
     color:azure
 }
 
+#inleidingblogcss {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
 .sectioncss {
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+
+
+/*@media screen and (min-width: 550px) {
+    .sectioncss {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .sectioncss{
+        margin-top: 500px;
+    }
+}*/
+
+.sectioncss2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+   
 }
 
 .textblog {
@@ -119,29 +273,134 @@
 }
 
 .csspics {
-    width: 500px;
-    height: 230px;
+    width: 300px;
+    height: 100px;
+}
+
+@media screen and (min-width: 550px) {
+    .csspics {
+        width: 500px;
+        height: 230px;
+    }
+    
 }
 
 #bannertextsuperhero {
     position: absolute;
-    top: 40%;
+    top: 45%;
     justify-content: center;
 	transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 415px;
-    color:azure
+    color:azure;
+    left: 50%;
 }
 
 #inleidingblogsuperhero {
-    margin-left:220px;
-    margin-top: 450px;
-    margin-bottom: 120px;
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 750px;
+    
+}
+
+@media screen and (min-width: 600px) {
+    #inleidingblogsuperhero {
+        top: 700px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #inleidingblogsuperhero {
+        top: 655px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #inleidingblogsuperhero {
+        top: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #inleidingblogsuperhero {
+        top: 800px;
+    }
+}
+
+#superheropic1 {
+    margin-top: 1000px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+}
+
+
+
+.superheropic2 {
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+}
+
+
+@media screen (min-width: 600px){
+    #superheropic1 {
+        margin-top: 800px;
+    }
+}
+
+ @media screen and (min-width: 710px) {
+    #superheropic1, .superheropic2 {
+        margin-left: 200px;
+    }
+ }
+
+ @media screen (min-width: 999px){
+    #superheropic1 {
+        margin-top: 400px;
+    }
+}
+ @media screen and (min-width: 1000px) {
+    #superheropic1 {
+        margin-left: 350px;
+        margin-top: 900px;
+    }
+
+    .superheropic2 {
+        margin-left: 350px;
+    }
+}
+
+#superheropic1 img, .superheropic2 img {
+    width: 300px;
+    height: 500px;
+}
+
+@media screen and (min-width: 600px) {
+    #superheropic1 img, .superheropic2 img {
+       width: 500px; 
+       height: 700px;
+    }
 
 }
 
-.superheropics {
-  margin-left: 130px;
-  margin-bottom: 60px;
-  width: 500px;
+@media screen and (min-width: 800px) {
+    #superheropic1 img, .superheropic2 img {
+        margin-left: 
+    }
+}
+
+.footers {
+    margin-top: 100px;
+    height: 150px;
+   
+}
+
+.footercontent {
+    margin-bottom: 10px;
+    
+}
+
+.contacttitle {
+    margin-top: 50px;
 }
