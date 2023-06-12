@@ -109,59 +109,60 @@ De website bestaat uit minstens 3 delen:
 
 | Term                      | Definitie |
 | ------------------------- | --------- |
-| HTML                      |           |
-| CSS                       |           |
-| commentaar                |           |
-| server                    |           |
-| browser                   |           |
-| viewport                  |           |
-| client                    |           |
-| *.html                    |           |
-| index.html                |           |
-| tag                       |           |
-| tagnaam                   |           |
-| openingstag               |           |
-| sluitingstag              |           |
-| element                   |           |
-| zelfsluitend element      |           |
-| nesten                    |           |
-| inhoud                    |           |
-| indentatie                |           |
-| attribute                 |           |
-| attribute-key             |           |
-| attribute-value           |           |
-| block-level               |           |
-| inline                    |           |
-| structuur                 |           |
-| semantiek                 |           |
-| id attribute              |           |
-| class attribute           |           |
-| CSS                       |           |
-| selector                  |           |
-| declaratie                |           |
-| opmaak                    |           |
-| property                  |           |
-| property-value (waarde)   |           |
-| stylesheet                |           |
-| externe stylesheet        |           |
-| *.css                     |           |
-| selector                  |           |
-| conflicterende stijlregel |           |
-| hover                     |           |
-| hexadecimale kleurwaarde  |           |
-| rgb kleurwaarde           |           |
-| font                      |           |
-| generic family            |           |
-| font family               |           |
-| serif                     |           |
-| sans-serif                |           |
-| monospace                 |           |
-| box model                 |           |
-| padding                   |           |
-| border                    |           |
-| margin                    |           |
-| width                     |           |
-| height                    |           |
+| HTML                      |   Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.        |
+| CSS                       |  Een taal die gebruikt wordt om de opmaak van een website te bepalen. CSS staat voor Cascading Style Sheets.         |
+| commentaar                |  Tekst in de code die niet wordt uitgevoerd of weergegeven.          |
+| server                    |    Een computer of systeem dat diensten verleent aan andere computers of systemen, meestal via het internet.       |
+| browser                   |      Een softwaretoepassing waarmee gebruikers webpagina's kunnen bekijken en interactie kunnen hebben met inhoud op het internet.     |
+| viewport                  |      Het zichtbare deel van een webpagina binnen de browser op een bepaald apparaat.     |
+| client                    |      Een computer of systeem dat toegang heeft tot de diensten en bronnen van een server, zoals een webbrowser.     |
+| *.html                    |       De bestandsextensie voor HTML-bestanden.    |
+| index.html                |       Een conventionele naam voor de startpagina van een website, meestal de eerste pagina die wordt geladen wanneer een website wordt bezocht.     |
+| tag                       |       Een element in HTML dat wordt gebruikt om structuur en betekenis aan inhoud te geven.     |
+| tagnaam                   |      De naam van een HTML-tag die het type element aangeeft dat wordt gebruikt.      |
+| openingstag               |      Het begin van een HTML-element, aangegeven door de naam van de tag tussen < en >     |
+| sluitingstag              |     Het einde van een HTML-element, aangegeven door de naam van de tag voorafgegaan door een schuine streep (/) tussen < en >      |
+| element                   |       Een verzameling HTML-tags en hun inhoud.     |
+| zelfsluitend element      |       Een HTML-element dat geen sluitingstag nodig heeft, zoals
+of .     |
+| nesten                    |        Het plaatsen van een HTML-element binnen een ander element, waardoor een hiërarchische structuur ontstaat.   |
+| inhoud                    |      De tekst of andere elementen die zich binnen een HTML-element bevinden.     |
+| indentatie                |     Het inspringen van code om de leesbaarheid te verbeteren, meestal met spaties of tabs      |
+| attribute                 |      Een eigenschap die aan een HTML-element kan worden toegevoegd om extra informatie of gedrag aan te geven.     |
+| attribute-key             |      De naam van een attribuut in een HTML-element.     |
+| attribute-value           |       De waarde die aan een attribuut wordt toegekend, opgegeven binnen aanhalingstekens.      |
+| block-level               |       Een type HTML-element dat standaard een nieuw blok vormt en de volledige breedte van zijn container inneemt.     |
+| inline                    |        Een type HTML-element dat inline met andere inhoud stroomt en alleen de ruimte inneemt die nodig is voor de inhoud.   |
+| structuur                 |      De organisatie en opbouw van elementen en inhoud binnen een HTML-document.     |
+| semantiek                 |     Het gebruik van HTML-elementen en attributen om de betekenis en structuur van de inhoud aan te geven, in plaats van alleen de weergave ervan      |
+| id attribute              |       Een attribuut dat een unieke identificatie geeft aan een HTML-element.     |
+| class attribute           |       Een attribuut dat een of meer klassen aangeeft waartoe een HTML-element behoort. |     |
+| CSS                       |      Cascading Style Sheets, een opmaaktaal die wordt gebruikt om de presentatie van een HTML-document te definiëren.      |
+| selector                  |       Een patroon dat wordt gebruikt om een specifiek HTML-element te selecteren en op te maken met CSS-regels.     |
+| declaratie                |       Een regel in een CSS-stijlblad die de opmaak voor een geselecteerd element definieert.     |
+| opmaak                    |       De visuele eigenschappen en stijltoepassingen die worden toegepast op HTML-elementen met CSS.    |
+| property                  |       Een eigenschap in een CSS-regel die specifieke stijlinstellingen definieert, zoals kleur, lettertype, breedte, etc.    |
+| property-value (waarde)   |      De waarde die aan een eigenschap wordt toegekend in een CSS-regel.     |
+| stylesheet                |       Een bestand dat CSS-regels bevat om de opmaak van een HTML-document te definiëren.     |
+| externe stylesheet        |      Een CSS-stijlblad dat wordt gelinkt aan een HTML-document via het -element.     |
+| *.css                     |      De bestandsextensie voor CSS-bestanden.     |
+| selector                  |      Een patroon dat wordt gebruikt om een specifiek HTML-element te selecteren en op te maken met CSS-regels.     |
+| conflicterende stijlregel |       Een situatie waarin meerdere CSS-regels conflicterende stijlinstellingen voor hetzelfde element specificeren.    |
+| hover                     |     Een situatie waarin meerdere CSS-regels conflicterende stijlinstellingen voor hetzelfde element specificeren      |
+| hexadecimale kleurwaarde  |      Een staat waarin een element zich bevindt wanneer de muisaanwijzer eroverheen beweegt, vaak gebruikt voor het toepassen van stijlveranderingen.     |
+| rgb kleurwaarde           |     Een notatie voor het specificeren van kleuren met behulp van de intensiteit van rood, groen en blauw, bijvoorbeeld rgb(255, 0, 0) voor rood.|
+| font                      |    Het lettertype of de typografie die wordt gebruikt om tekst weer te geven.       |
+| generic family            |      Een algemeen type lettertypecategorie, zoals serif, sans-serif of monospace     |
+| font family               |      Een specifiek lettertype of een reeks lettertypen die worden gebruikt voor het weergeven van tekst     |
+| serif                     |      Een lettertypecategorie met schreven (kleine lijntjes of streepjes aan de uiteinden van de letters)     |
+| sans-serif                |       Een lettertypecategorie zonder schreven.    |
+| monospace                 |       en lettertypecategorie waarin elke letter dezelfde breedte heeft, waardoor tekst uitgelijnd kan worden in kolommen.     |
+| box model                 |      Een model in CSS dat de opmaak van een element beschrijft als een rechthoekig vak met inhoud, padding, border en margin     |
+| padding                   |      De ruimte tussen de inhoud van een element en de binnenrand van de border.      |
+| border                    |       Een lijn rondom de rand van een element dat de grens van het element aangeeft       |
+| margin                    |      De ruimte tussen de buitenrand van een element en andere elementen eromheen     |
+| width                     |     De breedte van een element.      |
+| height                    |           |De hoogte van een element
 
 ## 📚 Bronnen
 
